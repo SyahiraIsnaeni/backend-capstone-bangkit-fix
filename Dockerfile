@@ -19,8 +19,8 @@ COPY . .
 # Set environment variable for Python
 ENV PYTHONUNBUFFERED=1
 
-# Expose port 8080
-EXPOSE 8080
+# Expose port 3000
+EXPOSE 3000
 
 # Command to start the server
 CMD ["python", "app.py"]
